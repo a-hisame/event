@@ -1,0 +1,16 @@
+<lift:surround with="default" at="content">
+  <h2>a_hisame: Input Form</h2>
+  <br/>
+ <lift:AHisameHello.show form="POST">
+    <label for="who_field">Message: </label>
+    <hello:who_field />
+    <hello:submit />
+    <hello:clear />
+  </lift:AHisameHello.show>
+  <br/>
+  <lift:AHisameHello.show>
+    <p>Hello Message!</p>
+    <hello:history />
+  </lift:AHisameHello.show>
+</lift:surround>
+

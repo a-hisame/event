@@ -1,0 +1,16 @@
+<lift:surround with="default" at="content">
+  <h2>Online Schemee Judge</h2>
+  <br/>
+  <lift:AHisameSchemee.show form="POST">
+    <p>Input Schemee Source: </p>
+    <p><hello:program_input /></p>
+    <p><hello:submit /></p>
+  </lift:AHisameSchemee.show>
+  <br/>
+  <lift:AHisameSchemee.show>
+    <p>Result: </p>
+    <p><hello:program_output /></p>
+  </lift:AHisameSchemee.show>
+  <br/>
+</lift:surround>
+
